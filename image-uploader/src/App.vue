@@ -1,15 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3.0 + Vite" />
+  <Upload msg="Upload your image" />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Upload from './components/Upload.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Upload
   }
 }
 </script>

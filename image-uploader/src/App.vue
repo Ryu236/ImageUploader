@@ -2,7 +2,7 @@
   <Upload msg="Upload your image" />
 </template>
 
-<script>
+<script lang='ts'>
 import Upload from './components/Upload.vue'
 
 export default {

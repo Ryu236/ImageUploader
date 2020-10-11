@@ -7,7 +7,7 @@
   <button>Choose a file</button>
 </template>
 
-<script>
+<script lang='ts'>
 export default {
   name: 'Upload',
   props: {

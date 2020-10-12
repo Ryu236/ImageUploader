@@ -1,5 +1,5 @@
 <template>
-  <h1>{{ msg }}</h1>
+  <h1>Upload your image</h1>
   <p>File should be Jpeg, Png …</p>
   <img alt="Vue logo" src="../assets/image.svg" />
   <p>Drag & Drop your image here</p>
@@ -10,10 +10,5 @@
 <script lang='ts'>
 export default {
   name: 'Upload',
-  props: {
-    msg: String
-  },
-  data() {
-  }
 }
 </script>
